@@ -66,7 +66,7 @@ function Home() {
             src={bussiness_pepople}
             alt="Bussiness peopele"
             style={{
-              maxWidth: window.innerWidth <= 768 ? 300 : "",
+              maxWidth: window.innerWidth <= 768 ? 350 : "",
               marginTop: window.innerWidth <= 768 ? "" : "80px",
               marginRight: window.innerWidth <= 768 ? "" : "250px",
               marginLeft: window.innerWidth <= 768 ? "15px" : "",
