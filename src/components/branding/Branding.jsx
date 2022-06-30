@@ -28,7 +28,7 @@ const Branding = () => {
       <div
         style={{ 
           textAlign: "center",
-          padding: window.innerWidth <= 480 ? 40 : 150,
+          padding: window.innerWidth <= 768 ? 40 : 150,
           marginRight: window.innerWidth <= 768 ? "" : "50px",
         }}
       >
@@ -36,7 +36,7 @@ const Branding = () => {
           style={{
             lineHeight: "100%",
             fontSize: window.innerWidth <= 768 ? "40px" : "60px",
-            padding: window.innerWidth <= 480 ? "10px 5px" : "10px 5px",
+            padding: window.innerWidth <= 768 ? "10px 5px" : "10px 5px",
           }}
         >
           branding & design system
@@ -47,7 +47,7 @@ const Branding = () => {
             lineHeight: "28px",
             left: window.innerWidth <= 768 ? "" : 188,
             fontSize: window.innerWidth <= 768 ? 16 : 25,
-            padding: window.innerWidth <= 480 ? "10px 5px" : "10px 5px",
+            padding: window.innerWidth <= 768 ? "10px 5px" : "10px 5px",
           }}
         >
           commonly used in the graphic, print & publishing industires for
@@ -66,7 +66,7 @@ const Branding = () => {
         <div
           style={{
             fontSize: "30px",
-            padding: window.innerWidth <= 480 ? "12px 10px" : "15px 5px",
+            padding: window.innerWidth <= 768 ? "12px 10px" : "15px 5px",
             display: window.innerWidth <= 768 ? "" : "none",
           }}
         >

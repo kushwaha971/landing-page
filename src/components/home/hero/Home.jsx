@@ -28,7 +28,7 @@ function Home() {
               fontWeight: 700,
               lineHeight: "100%",
               fontSize: window.innerWidth <= 768 ? 40 : 60,
-              paddin: window.innerWidth <= 768 ? "10px 5px" : "10px 10px",
+              padding: window.innerWidth <= 768 ? "10px 5px" : "10px 10px",
             }}
           >
             Building Digital <br />
@@ -54,7 +54,7 @@ function Home() {
               color: "white",
               cursor: "pointer",
               borderRadius: "5px",
-              paddin: window.innerWidth <= 480 ? "12px 10px" : "12px 1px",
+              padding: window.innerWidth <= 480 ? "12px 10px" : "12px 1px",
             }}
           >
             contact us

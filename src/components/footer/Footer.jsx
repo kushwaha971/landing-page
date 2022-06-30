@@ -22,8 +22,7 @@ function Footer() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns:
-              window.innerWidth <= 768 ? "repeat(1,1fr)" : "repeat(4,1fr)",
+            gridTemplateColumns:window.innerWidth <= 768 ? "repeat(1,1fr)" : "repeat(4,1fr)",
             gridGap: "100px",
             textAlign: "center",
           }}

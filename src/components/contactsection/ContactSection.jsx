@@ -34,7 +34,7 @@ const ContactSection = () => {
         <div
           style={{
             textAlign: "center",
-            padding: window.innerWidth <= 480 ? 40 : 150,
+            padding: window.innerWidth <= 768 ? 40 : 150,
             marginRight: window.innerWidth <= 768 ? "" : "50px",
           }}
         >
@@ -54,7 +54,7 @@ const ContactSection = () => {
               lineHeight: "28px",
               left: window.innerWidth <= 768 ? "" : 188,
               fontSize: window.innerWidth <= 768 ? 16 : 25,
-              padding: window.innerWidth <= 480 ? "12px 10px" : "15px 5px",
+              padding: window.innerWidth <= 768 ? "12px 10px" : "15px 5px",
             }}
           >
           We work with Brans, Startups, to SMEs. Colaborate for more impact and growt
@@ -68,7 +68,7 @@ const ContactSection = () => {
               cursor: "pointer",
               background: "#8EADD5",
               borderRadius: "5px",
-              paddin: window.innerWidth <= 480 ? "12px 10px" : "12px 1px",
+              paddin: window.innerWidth <= 768 ? "12px 10px" : "12px 1px",
             }}
           >
             contact us
